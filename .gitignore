@@ -1,0 +1,18 @@
+# Raw question banks are NOT redistributed. The study publishes derived,
+# scores-only results (per-item: chosen letter, correct letter, correctness).
+# Reproduce the raw data with harness/fetch_data.sh.
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Never commit secrets
+.env
+*secret*
+*apikey*
